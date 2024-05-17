@@ -208,8 +208,8 @@ function SMODS.INIT.NeowBlessings()
         {
             key = "mega_arcana_pack",
             tooltip = {
-                "Choose 1 of up to",
-                "2 Tarot cards to",
+                "Choose 2 of up to",
+                "5 Tarot cards to",
                 "be used immediately"
             },
             desc = "Open a Mega Arcana pack",
@@ -222,8 +222,8 @@ function SMODS.INIT.NeowBlessings()
         {
            key = "mega_celestial_pack",
             tooltip = {
-                "Choose 1 of up to",
-                "2 Planet cards to",
+                "Choose 2 of up to",
+                "5 Planet cards to",
                 "be used immediately"
             },
             desc = "Open a Mega Celestial pack",
@@ -248,8 +248,8 @@ function SMODS.INIT.NeowBlessings()
         {
             key = "mega_standard_pack",
             tooltip = {
-                "Choose 1 of up to",
-                "2 Playing cards to",
+                "Choose 2 of up to",
+                "5 Playing cards to",
                 "add to your deck"
             },
             desc = "Open a Mega Standard pack",
@@ -262,7 +262,7 @@ function SMODS.INIT.NeowBlessings()
             key = "jumbo_buffoon_pack",
             tooltip = {
                 "Choose 1 of up to",
-                "2 Joker cards"
+                "4 Joker cards"
             },
             desc = "Open a Jumbo Buffoon pack",
             f = function()
@@ -273,13 +273,13 @@ function SMODS.INIT.NeowBlessings()
     }
     local tooltips = {
         ['mega_arcana_pack'] = {
-            "Choose 1 of up to",
-            "2 Tarot cards to",
+            "Choose 2 of up to",
+            "5 Tarot cards to",
             "be used immediately"
         },
         ['mega_celestial_pack'] = {
-                "Choose 1 of up to",
-                "2 Planet cards to",
+                "Choose 2 of up to",
+                "5 Planet cards to",
                 "be used immediately"
         },
         ['mega_spectral_pack'] = {
@@ -288,13 +288,13 @@ function SMODS.INIT.NeowBlessings()
                 "be used immediately"
         },
         ['mega_standard_pack'] = {
-                "Choose 1 of up to",
-                "2 Playing cards to",
+                "Choose 2 of up to",
+                "5 Playing cards to",
                 "add to your deck"
         },
         ['jumbo_buffoon_pack'] = {
                 "Choose 1 of up to",
-                "2 Joker cards"
+                "4 Joker cards"
         },  
     }
     function create_joker(effect, rarity)
